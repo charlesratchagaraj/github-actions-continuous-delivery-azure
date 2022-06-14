@@ -2,8 +2,4 @@ name: staging-workflow
 
 on: 
   pull_request:
-    types: build
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
+    types: [labeled]
