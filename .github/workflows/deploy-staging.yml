@@ -1,4 +1,4 @@
-name: Stage the app
+name: staging-workflow
 
 on: 
   pull_request:
